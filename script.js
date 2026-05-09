@@ -39,12 +39,33 @@ const projects = [
         link: "#",
         tags: ["HTML", "CSS", "JavaScript"],
     },
-    // {
-    //     title: "Next Project",
-    //     description: "Coming soon — I'll add the next thing I build right here.",
-    //     link: "https://github.com/yourusername/next-project",
-    //     tags: ["JavaScript"],
-    // },
+    {
+        title: "RecipeGen",
+        description: "Built during a hackathon with React and powered by Llama 4, this web app helps users turn ingredients into meal ideas. Users can upload pictures of ingredients or enter them as text, then receive dish suggestions tailored to their dietary restrictions.",
+        link: "https://github.com/nlazaro/RecipeGenerator",
+        tags: ["REACT.js", "Python3", "FASTApi", "Python"],
+    },
+    {
+        title: "FiveWorks",
+        description:
+            "Led a team of five in my System Designs class to build a web and Android app that streamlines booking library rooms at my school. The Android app was built with Kotlin, the web app with React, and both platforms shared a Firebase database for real-time room availability and reservations.",
+        link: "Coming soon",
+        tags: ["REACT.js", "Kotlin", "FireBase"]
+    },
+    {
+        title: "Name is still in the works",
+        description:
+            "My first video game built with Unity Engine and C# — a beat-em-up dungeon crawler roguelike game.",
+        link: "#",
+        tags: ["Unity", "C#"],
+    },
+    {
+        title: "Name is still in the works",
+        description:
+            "A Demand-Side Platform (DSP) that facilitates real-time bidding using Python and FastAPI.",
+        link: "#",
+        tags: ["Python", "FastAPI"],
+    }
 ];
 
 const grid = document.querySelector("#projects-grid");
